@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis card</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        my-card {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- img="./imgs/nike-blue.png" -->
+    <my-card link="#" img="./imgs/nike-blue.png">
+        <span slot="brand">nike</span>
+        <span slot="title">Nike Zoom 2021</span>
+        <span slot="sub-title">running collection</span>
+        <span slot="paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit 
+            aliquam adipisci blanditiis. Placeat totam voluptatibus error hic saepe 
+            dolore aperiam culpa fugiat commodi! Minima iure molestias quisquam 
+            exercitationem ipsum!Repellat facilis maxime vero quo sequi, numquam 
+            inventore cupiditate deleniti, beatae unde quibusdam aperiam distinctio 
+            aspernatur! Adipisci iusto, nam rerum pariatur odio enim ipsam recusandae 
+            laboriosam tenetur eos similique dolorem?
+        </span>
+        <span slot="price">$2.500</span>
+    </my-card>
+    <script type="module" src="my-card.js"></script>
+</body>
+</html>
